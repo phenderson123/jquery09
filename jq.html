@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<title>Code</title>
+
+<style>
+  p {
+    background: green;
+    padding: 20px;
+  }
+</style>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+<script>
+
+$(document).ready(function(){
+  
+  
+  $( "p" ).click(function() {
+  
+    
+    $( this ).fadeTo( "slow", 0.5 );
+    
+  });
+  
+});
+</script>
+<p id="fadeMe">I will fade out through the power of the force.</p>
